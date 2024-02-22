@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --colorFirst: #010101;
+    --colorSecond: #F6F6F6;
+    --colorThird: #FEAF0F;
+    --colorHover: #272727;
+
+    --fontFirst: 'Krona One', sans-serif;
+    --fontSecond: 'Montserrat', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--colorFirst);
+    color: var(--colorSecond);
+}
+
+.header{
+    padding: 2% 0% 0% 15%;
+}
+
+.headerNav{
+    display: flex;
+    gap: 80px;
+}
+
+.headerNav a{
+    font-family: var(--fontSecond);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--colorThird);
+    text-decoration: none;
+}
+
+.presentation{
+    padding: 8% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentationContent{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.presentationContent h1{
+    font-size: 36px;
+    font-family: var(--fontFirst);
+}
+
+.strikingTitle{
+    color: var(--colorThird);
+}
+
+.presentationContent p{
+    font-size: 24px;
+    font-family: var(--fontSecond);
+}
+
+.presentationLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.presentationLinks h2{
+    font-family:var(--fontFirst);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.presentationLinks a{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--colorThird);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: var(--fontSecond);
+}
+
+.presentationLinks a:hover{
+    background-color: var(--colorHover);
+}
+
+.footer{
+    color: var(--colorFirst);
+    background-color: var(--colorThird);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fontSecond);
+    font-size: 24px;
+    font-weight: 400;
+}
