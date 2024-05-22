@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* HEADER */
+.containerHeader{
+    width: 100%;
+    background-color: #5300C8;
+    display: flex;
+    justify-content: center;
+}
+
+.imgHeader{
+    width: 314px;
+    height: 56px;
+}
+
+/* MAIN */
+.containerMain{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.containerProdutos{
+    height: 50%;
+}
+
+.titleProduct, .titleForm{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.card{
+    display: flex;
+}
+
+.imgCard{
+    padding: 10px;
+}
+
+.card-container--info{
+    width: 196px;
+    height: 258px;
+    position: relative;
+    background-color: #5D04D9;
+    border: 3px solid #000;
+    border-radius: 10px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    color: #fff;
+}
+
+/* FORM */
+.containerForm{
+    width: 472px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.textForm{
+    width: 392px;
+    height: 58px;
+    border-radius: 30px;
+    border: 3px solid #03318C;
+    margin: 10px auto;
+}
+
+.textForm::placeholder{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #03318C;
+}
+
+.btnGuardar, .btnLimpar{
+    width: 188px;
+    height: 55px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.btnGuardar{
+    background-color: #03318C;
+    color: #fff;
+}
+
+.btnLimpar{
+    border: 3px solid #03318C;
+    color: #03318C;
+}
+
+/* FOOTER */
+.containerFooter{
+    width: 100%;
+    background-color:#5300C8;
+    color: #fff;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    padding: 30px;
+}
