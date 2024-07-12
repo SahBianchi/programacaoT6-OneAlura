@@ -1,0 +1,3 @@
+[submodule "projeto-organo2"]
+    path = projeto-organo2
+    url = git@github.com:SahBianchi/projetoOrganoAlura.git
