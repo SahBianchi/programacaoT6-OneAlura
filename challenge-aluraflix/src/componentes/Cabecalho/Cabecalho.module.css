@@ -1,0 +1,15 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: var(--preto);   
+}
+
+.link {
+    padding: 1em;
+    border: 2px solid transparent;
+    position: relative;
+    border-radius: 12px;
+    display: inline-block;
+}
